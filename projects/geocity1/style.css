@@ -1,0 +1,82 @@
+
+    
+
+
+body {
+    margin: 0;
+    background:#416e65;
+    background-image: url("https://varia-int.com/wp-content/uploads/2021/04/sky.jpg");
+}
+
+
+
+h1{
+text-align: center;
+    margin: 0px;
+font-family: Impact;
+color:#d8e8e4;
+background:  rgb(22, 73, 55);
+background-image: url
+
+}
+
+
+h2{
+    margin: 0px;
+font-family:'Franklin Gothic Medium' ;
+color:#b3d33f;
+background:  rgb(22, 73, 55);
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-shadow:2px 2px rgb(214, 97, 43)
+}
+
+
+h3{
+    font-family: 'Courier New';
+color:#ba3fd3;
+text-align: center;
+
+}
+
+
+    
+
+p{
+   font-size: 2rem;
+    color: rgb(22, 35, 214);
+    font-family: monospace;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+
+.pic1{
+    width: 621px;
+    height: 416px;
+    padding-left: 390px;
+    padding-bottom: 20px;
+    
+}
+.img2{
+    width: 300px;
+    height: 200px;
+left: 100px;
+    top: 300px;
+}
+
+.img3{
+    
+    top: 300px;
+    right: 150px;
+}
+.gif2{
+    position: fixed;
+    top: 50px;
+    left:185px;
+}
+.gif3{
+    
+    position: absolute;
+
+}
