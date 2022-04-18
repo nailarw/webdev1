@@ -130,11 +130,11 @@ body {
     background-size: cover;
 }
 
-.pokemon {
+.weather {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(photos/smartphonephotos/pokemon.jpeg);
+    background-image: url(photos/smartphonephotos/weather.png);
     background-size: cover;
 }
 
