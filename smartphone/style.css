@@ -1,0 +1,243 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: url(photos/smartphonephotos/phonebackground.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.container a {
+    display: block;
+}
+
+.icon-holder {
+    width: 21%;
+    height: 75px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 2px transparent;
+}
+
+/*.icon-holder:hover {
+    border: solid 2px red;
+}*/
+
+.zoom {
+    background-color: transparent;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+ 
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/camera.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/find-my.png);
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/text.png);
+    background-size: cover;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/mail.png);
+    background-size: cover;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/calendar.png);
+    background-size: cover;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/news.png);
+    background-size: cover;
+}
+
+.mario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/mario.png);
+    background-size: cover;
+}
+
+.facetime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/facetime.png);
+    background-size: cover;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/clock.png);
+    background-size: cover;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/photos.png);
+    background-size: cover;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/pokemon.jpeg);
+    background-size: cover;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/notes.png);
+    background-size: cover;
+}
+
+.wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/wallet.png);
+    background-size: cover;
+}
+
+.measure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/instagram.jpeg);
+    background-size: cover;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/Facebook.png);
+    background-size: cover;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/books.png);
+    background-size: cover;
+}
+
+.snapchat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/snap.jpeg);
+    background-size: cover;
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/gmail.png);
+    background-size: cover;
+}
+
+.safari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/safari.png);
+    background-size: cover;
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/apple-music.png);
+    background-size: cover;
+}
+
+.appletv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/apple-tv.png);
+    background-size: cover;
+}
+
+.appstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/app-store.png);
+    background-size: cover;
+}
+
+.student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/canvas-student-app-icon.jpeg);
+    background-size: cover;
+}
+
+.calulator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photos/smartphonephotos/calculator.png);
+    background-size: cover;
+}
