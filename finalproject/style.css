@@ -1,54 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 
 /*webpage background color*/
 body {
-    background-color: black;
+  background-color: black;
+  color: white;
 }
 
 /* navigation bar*/
 
 .topnav {
-    overflow: hidden;
-  }
-  
-  
-  .topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family:'source code pro' ;
-  }
-  
-  /* hover color */
-  .topnav a:hover {
-    background-image: linear-gradient(to right,#6a11cb 0,#2575fc 100%);
-    color: white;
-  }
-  
-  /* specifically for the home button*/
-  .topnav a.active {
-    
-    color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "source code pro";
+}
+
+/* hover color */
+.topnav a:hover {
+  background: linear-gradient(to right, #6a11cb 0, #2575fc 100%);
+  color: white;
+}
+
+/* specifically for the home button*/
+.topnav a.active {
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  } */
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* @media (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -60,27 +60,27 @@ body {
       display: block;
       text-align: right;
     }
-  }
-  h1 {
-      font-family: 'source code pro';
-   
-      color: blanchedalmond;
-      margin-top: 5vh;
-      margin-bottom: 5vh;
-      left: 5vmin;
-  }
-  h2 {
-    font-family: 'source code pro';
-   
-    color: blanchedalmond;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    left: 5vmin;
+  } */
+h1 {
+  font-family: "source code pro";
+
+  color: blanchedalmond;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  left: 5vmin;
+}
+h2 {
+  font-family: "source code pro";
+
+  color: blanchedalmond;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  left: 5vmin;
 }
 
 a {
-  font-family: 'source code pro';
-  z
+  font-family: "source code pro";
+
   color: blanchedalmond;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -89,124 +89,120 @@ a {
 
 /* The hero image */
 .masthead2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
-    overflow: hidden;
-    background-size: cover !important;
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 73%, rgba(0,0,0,0.0) 100%), url(images/hello.jpg) no-repeat center center scroll;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
 
-
-  /*circle*/
-  .main{
-    width:330px;
-    height:330px;
-    border:1px solid #CCC;
-    position:absolute;
-    top:250vh; bottom:0; left:0;right:0;
-    margin:auto;
-    border-radius:50%; 
-  }
-  
-  .circle{
-    width:30px;
-    height:30px;
-    background:cyan;
-    border-radius:50%;
-    position:absolute;
-    top:0; bottom:0; left:0;right:0;
-    overflow:hidden;
-    margin:auto;
-    animation: circle 6s linear infinite;
-  }
-  
-  @keyframes circle{
-    0%{
-      transform:rotate(0deg)
-                translate(-165px)
-                rotate(0deg);
-    
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-165px)
-                rotate(-360deg);
-    }
-  }
-  
-  
-
-/* background */
-html {
-background-color: #000000;
+  background-image: url("images/hello.jpg");
+  background-size: cover;
+  /* background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 73%, rgba(0,0,0,0.0) 100%), no-repeat center center scroll; */
 }
+
+/*circle*/
+.main {
+  width: 330px;
+  height: 330px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 250vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
+
+.circle-animation {
+  width: 30px;
+  height: 30px;
+  background: cyan;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+}
+
+
+
+.circle-container {
+  position: relative;
+}
+
 /* circles */
 .circle1 {
-position: absolute;
-background-image: linear-gradient(15deg, #2a2a2a 0%, #2a2a2a 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 10vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(15deg, #2a2a2a 0%, #2a2a2a 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 10vw;
 }
 .circle2 {
-position: absolute;
-background-image: linear-gradient(60deg, #3f3f3f 0%, #3f3f3f 100%);
-width: 300px;height: 300px;
-border-radius: 50%;
-left: 20vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(60deg, #3f3f3f 0%, #3f3f3f 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 20vw;
 }
 .circle3 {
-position: absolute;
-background-image: linear-gradient(-60deg, #545454 0%, #545454 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 30vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(-60deg, #545454 0%, #545454 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 30vw;
 }
 .circle4 {
-position: absolute;
-background-image: linear-gradient(to top, #6a6a6a 0%, #6a6a6a 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 40vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(to top, #6a6a6a 0%, #6a6a6a 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 40vw;
 }
 .circle5 {
-position: absolute;
-background-image: linear-gradient(to right, #7f7f7f 0%, #7f7f7f 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 50vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(to right, #7f7f7f 0%, #7f7f7f 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 50vw;
 }
 .circle6 {
-position: absolute;
-background-image: linear-gradient(-225deg, #949494 0%, #949494 48%, #949494 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 60vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(-225deg, #949494 0%, #949494 48%, #949494 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 60vw;
 }
 .circle7 {
-position: absolute;
-background-image: linear-gradient(to right, #a9a9a9 0%, #a9a9a9 100%);
-width: 300px;
-height: 300px;
-border-radius: 50%;
-left: 70vw;
-top: 220vh;
+  position: absolute;
+  background: linear-gradient(to right, #a9a9a9 0%, #a9a9a9 100%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  left: 70vw;
 }
 
 /*thoughts*/
@@ -219,22 +215,25 @@ body {
   height: 100%;
   letter-spacing: 0.05em;
   background-size: cover;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1em;
   line-height: 1.5;
   position: relative;
 }
 body::before {
-    content: '';
-    position: absolute;
-    top: -50px; left: 0; right: 0; bottom: -20px;
-    background-color: rgba(0,0,0,0.5);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .main-content {
   margin: 0px auto;
-  color: rgba(255,255,255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -242,7 +241,7 @@ body::before {
 h3 {
   text-align: center;
   font-size: 50px;
-  font-family: 'Unica One';
+  font-family: "Unica One";
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -251,7 +250,7 @@ h4 {
   margin-top: 0px;
 }
 p {
-  border: 2px solid rgba(255,255,255, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
   border-left: none;
   border-right: none;
   padding: 30px 0;
@@ -264,10 +263,8 @@ p {
   column-count: 2;
   column-gap: 50px;
 }
-  p span:not(.content) {
-    display: block;
-    text-align: center;
-    letter-spacing: 0.5em;
-  }
-
-  
+p span:not(.content) {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
